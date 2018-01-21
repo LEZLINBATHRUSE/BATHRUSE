@@ -4,5 +4,5 @@ void main()
 char b;
 printf("Enter an alphabet");
 scanf("%c",&b);
-printf("\n Vovel");
+printf("\n Vowel");
 }
