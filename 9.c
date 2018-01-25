@@ -1,10 +1,16 @@
 #include<stdio.h>
 void main()
 {
-    int n,i,k[3];
-    printf("Enter n  value");
-    scanf("%d",&n);
-    for(i=0;i<=n;i++)
-    scanf("%d",k[i]);
-    printf("\nK is");
+int n,i,K=0;
+printf(" \n ENTER THE N VALUE");
+printf("\n 1 2 3 4 5");
+printf(" \nENTER THE K VALUE");
+scanf("%d",&n);
+for(i=1;i<=n;++i)
+{
+K=K+i;
 }
+printf(" \n %d",K);
+}
+
+
