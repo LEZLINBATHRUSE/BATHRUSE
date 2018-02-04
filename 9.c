@@ -1,15 +1,20 @@
+
 #include<stdio.h>
+#include<conio.h>
 void main()
 {
-int n,i,K=0;
-  printf("\n Sum of 1 2 3 4 5");
-printf(" \n ENTER THE N VALUE");
-scanf("%d",&n);
-for(i=1;i<=n;++i)
+int a[10],i,b=0;clrscr();
+printf("Enter the a values");
+for(i=0;i<10;i++)
 {
-K=K+i;
+scanf("%d",&a[i]);
 }
-printf(" \n %d",K);
+printf("The marks are");
+for(i=0;i<10;i++)
+{
+printf("%d\t",a[i]);
+b=b+a[i];
 }
-
-
+printf("b=%d",b);
+getch();
+}
