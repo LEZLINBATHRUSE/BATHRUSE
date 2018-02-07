@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-int a,b=0,c=6;
-    for(int a=b+1;i<c;i++)
+int i;
+    for(i=6;i<9;i++)
     {
-        if(a%2==0)
+        if(i%2==0&&i!=6)
         {
-            printf("%d ",a);
+            printf("%d ",i);
         }
     }
