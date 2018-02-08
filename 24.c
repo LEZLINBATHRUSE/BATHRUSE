@@ -1,7 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int b[100],i,j,c;
+int b[50];
+int i,j,c;
 printf("Enter the array elements");
 for(i=0;i<5;i++)
 {
