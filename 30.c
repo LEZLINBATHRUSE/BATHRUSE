@@ -1,13 +1,9 @@
 #include<stdio.h>
 void main()
 {
-      int a[1],b,i=0;
-    printf("Enter the value");
-    scanf("\n%d",&b);
-    {
-        scanf("\n%d",&a[i]);
-        a[i]=b;
-printf("\n%d\t%d",a[i],i);
+      int a=5,b=4,c=50,d=50,e,f;
+      e=a-b;
+      f=c-d;
+      printf("%d\t%d",e,f);
 }
-}
-
+      
