@@ -1,13 +1,16 @@
 #include<stdio.h>
 void main()
 {
-      int a[1],b,i=0;
-    printf("Enter the value");
-    scanf("\n%d",&b);
+      int a[50],i;
+    printf("Enter the value ");
+    for(i=0;i<1;i++)
     {
-        scanf("\n%d",&a[i]);
-        a[i]=b;
-printf("\n%d\t%d",i,a[i]);
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<1;i++)
+    {
+        printf("\n%d\t%d",i,a[i]);
+    }
 }
-}
-
+    
+  
