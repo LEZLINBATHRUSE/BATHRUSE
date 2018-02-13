@@ -23,6 +23,6 @@ b[j]=c;
 }
 for(i=0;i<5;i++)
 {
-printf("\nThe array of sorted elements is %d",b[j]);
+printf("\nThe array of sorted elements is %d",b[i]);
 }
 }
