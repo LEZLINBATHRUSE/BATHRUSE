@@ -1,9 +1,17 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
-char a[20]="laptop is good";
-int c;
-c=strlen(a);
-printf("%s is %d",c);
+	char a[50];
+	int n,c=0,i;
+	scanf("%[^\t]s",a);
+	n=strlen(a);
+	for(i=0;i<n;i++)
+	{
+		if(a[i]>='a'&&a[i]<='z'||a[i]>='A'&&a[i]<='Z')
+		{
+		c++;
+		}
+	}
+	printf("%d",c);
 }
